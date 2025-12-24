@@ -1,0 +1,7 @@
+app_name: "Nexus AI Assistant"
+version: "1.0.0"
+model_settings:
+  primary: "gpt-4.1"  # For the Supervisor (Decision maker)
+  worker: "gpt-4o-mini"   # For the Agents (Execution)
+  temperature: 0.1
+  recursion_limit: 20
