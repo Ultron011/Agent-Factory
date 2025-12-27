@@ -1,0 +1,125 @@
+market_research_task:
+  description: >
+    Conduct comprehensive market research for {topic} in the current year {current_year}.
+    Gather and analyze market data including:
+    - Market size, growth rate, and trends
+    - Industry dynamics and key drivers
+    - Market opportunities and emerging trends
+    - Potential threats and market challenges
+    - Economic indicators and market conditions
+    - Regulatory environment and industry standards
+    Make sure to identify the most relevant and actionable market insights that will serve
+    as the foundation for all subsequent analysis.
+  expected_output: >
+    A comprehensive market research report containing:
+    - Market overview and size analysis
+    - Key market trends and growth drivers
+    - Market opportunities identified
+    - Market threats and challenges
+    - Economic and regulatory context
+    - Summary of key findings (minimum 10 bullet points)
+    Formatted as markdown without '```'
+  agent: market_research_specialist
+
+competitive_intelligence_task:
+  description: >
+    Based on the market research findings provided, conduct a thorough competitive 
+    intelligence analysis for {topic}. Analyze:
+    - Key competitors and their market positioning
+    - Competitor strengths and weaknesses
+    - Competitive strategies (pricing, marketing, product features)
+    - Market share and competitive landscape
+    - Competitive gaps and opportunities for differentiation
+    - Emerging competitive threats
+    Use the market research context to understand the competitive environment and identify
+    strategic competitive advantages.
+  expected_output: >
+    A detailed competitive intelligence report containing:
+    - Competitive landscape overview
+    - Analysis of top 5-7 key competitors
+    - Competitive positioning matrix
+    - Strengths and weaknesses analysis
+    - Competitive gaps and differentiation opportunities
+    - Strategic competitive recommendations
+    - Summary of key competitive insights (minimum 10 bullet points)
+    Formatted as markdown without '```'
+  agent: competitive_intelligence_analyst
+
+customer_insights_task:
+  description: >
+    Using the market research data and competitive intelligence analysis provided, 
+    conduct deep customer insights research for {topic}. Investigate:
+    - Customer segments and personas
+    - Customer needs, preferences, and pain points
+    - Buying behaviors and decision-making processes
+    - Customer satisfaction with current solutions
+    - Unmet customer needs and opportunities
+    - Customer perception of competitors
+    - Customer journey and touchpoints
+    Synthesize market research findings and competitive positioning to understand how
+    customers perceive the market and what they truly value.
+  expected_output: >
+    A comprehensive customer insights report containing:
+    - Customer segmentation analysis
+    - Detailed customer personas (3-5 personas)
+    - Customer needs and pain points analysis
+    - Buying behavior and decision-making insights
+    - Unmet needs and opportunities
+    - Customer perception of competitive landscape
+    - Customer journey mapping
+    - Summary of key customer insights (minimum 10 bullet points)
+    Formatted as markdown without '```'
+  agent: customer_insights_researcher
+
+product_strategy_task:
+  description: >
+    Synthesize the market research, competitive intelligence, and customer insights 
+    to develop comprehensive product strategies for {topic}. Create:
+    - Product positioning strategy
+    - Feature prioritization based on market opportunities and customer needs
+    - Pricing strategy recommendations
+    - Go-to-market approach
+    - Product differentiation strategy
+    - Product roadmap recommendations
+    Connect market opportunities, competitive advantages, and customer needs to develop
+    actionable product strategies that align with business objectives.
+  expected_output: >
+    A detailed product strategy document containing:
+    - Product positioning statement and strategy
+    - Prioritized feature recommendations with rationale
+    - Pricing strategy and recommendations
+    - Go-to-market strategy and approach
+    - Product differentiation strategy
+    - Recommended product roadmap (short-term and long-term)
+    - Alignment with market opportunities, competitive advantages, and customer needs
+    - Summary of key product strategy recommendations (minimum 10 bullet points)
+    Formatted as markdown without '```'
+  agent: product_strategy_advisor
+
+business_analysis_task:
+  description: >
+    Synthesize all research insights from market research, competitive intelligence, 
+    customer insights, and product strategies to provide comprehensive business analysis 
+    for {topic}. Develop:
+    - Executive summary of all findings
+    - Strategic business recommendations
+    - Risk assessment and mitigation strategies
+    - Opportunity evaluation and prioritization
+    - Strategic roadmap with actionable steps
+    - Key performance indicators (KPIs) and success metrics
+    - Implementation timeline and resource requirements
+    Present a holistic business analysis that enables executive decision-making by
+    integrating all research findings into clear, actionable business recommendations.
+  expected_output: >
+    A comprehensive business analysis report containing:
+    - Executive summary (2-3 pages)
+    - Strategic business recommendations (prioritized)
+    - Risk assessment with mitigation strategies
+    - Opportunity evaluation matrix
+    - Strategic roadmap with phases and milestones
+    - Recommended KPIs and success metrics
+    - Implementation timeline and resource requirements
+    - Conclusion and next steps
+    - Summary of key business recommendations (minimum 10 bullet points)
+    Formatted as markdown without '```'
+  agent: business_analyst
