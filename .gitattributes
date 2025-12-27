@@ -1,0 +1,8 @@
+# Exclude Jupyter notebooks from language statistics
+*.ipynb linguist-documentation
+
+# Alternatively, you can use linguist-generated to mark them as generated files
+# *.ipynb linguist-generated
+
+# Or completely exclude them from stats (but they'll still be in the repo)
+# *.ipynb linguist-vendored
